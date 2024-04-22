@@ -2,61 +2,70 @@ const cambodiaDatabase = {
     cities: [
         {
             id: 1,
-            cityName: "CityName",
+            cityName: "Phnom Penh",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: 1997
+            cityPopulation: "2,281,951",
+            cityFounded: "5th Century"
 
         },{
             id: 2,
-            name: "CityName",
+            name: "Siem Reap",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+            cityPopulation: "245,494",
+            cityFounded: "802"
 
         },{
             id: 3,
-            name: "CityName",
+            name: "Battambang",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+            cityPopulation: "119,251",
+            cityFounded: "11th Century"
 
-        },{
-            id: 4,
-            name: "CityName",
-            cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+
 
         },    
     ],
     landmarks: [
         {
         id: 1,
-        landmarkName: "Name",
+        landmarkName: "Angkor Wat",
         landmarkImage: "PutImageHere",
-        landmarkFunFact: "Wow, this fact sure is fun"
+        landmarkFunFact: "Widely known as a location in Lara Croft: Tomb Raider"
         }, 
         {
          id: 2,
-         landmarkName: "Name",
+         landmarkName: "Tuol Sleng Genocide Museum",
         landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+         landmarkFunFact: "See Kissinger's contribution to a dark time in Cambodian history"
          },
          {
          id: 3,
-         landmarkName: "Name",
+         landmarkName: "Royal Palace",
          landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+         landmarkFunFact: "Cambodia's Royal Palace since 1866"
         },
     ],
     celebrities: [
         {
             id: 1,
-            celebName: "NameOfCelebrity",
+            celebName: "Rithy Panh",
             celebImage: "PutImageHere",
-            celebQuote: "How did I get here?",
-            celebKnownFor: "Inventor of the Fork",
+            celebQuote: "I have only one life, and I can't do all. If I do one thing well, I'm happy.",
+            celebKnownFor: "Rithy Panh is a Cambodian documentary film director and screenwriter",
+        },
+	{
+            id: 2,
+            celebName: "Norodom Sihamoni",
+            celebImage: "PutImageHere",
+            celebQuote: "I will devote my body and soul to the service of the people and the nation.",
+            celebKnownFor: "Elected King of Cambodia",
+        },
+	{
+            id: 3,
+            celebName: "Yubin Shin",
+            celebImage: "PutImageHere",
+            celebQuote: "Every achievement I made is only a step to success. Success has no boundary.",
+            celebKnownFor: "Well known actress",
         },
     ]
 }
