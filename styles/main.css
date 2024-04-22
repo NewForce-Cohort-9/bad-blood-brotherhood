@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background-color: yellow;
 }
 
@@ -66,5 +67,8 @@ body {
     font-size: 200px;
     color: blueviolet;
     text-shadow: 2px 2px white;
+=======
+  background-color: orangered;
+>>>>>>> ef4037179d3b7be99855a29d3e04c84048faea48
 }
 
