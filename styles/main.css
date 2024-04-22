@@ -1,6 +1,12 @@
-body {
-<<<<<<< HEAD
-    background-color: yellow;
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------- CSS for index.html page: start ------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+#homeBody {
+    background-image: radial-gradient(yellow 10%, #ff26f9 20%, #1e90ff, lime 40%, #ffcc00 80%);
 }
 
 .homeHeader {
@@ -67,8 +73,9 @@ body {
     font-size: 200px;
     color: blueviolet;
     text-shadow: 2px 2px white;
-=======
-  background-color: orangered;
->>>>>>> ef4037179d3b7be99855a29d3e04c84048faea48
+    background-color: orangered;
 }
 
+/* ---------------------------------------------------------------------------- */
+/* ------------------- CSS for index.html page: end ------------------------- */
+/* ---------------------------------------------------------------------------- */
