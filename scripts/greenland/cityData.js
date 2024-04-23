@@ -6,11 +6,13 @@ export const greenlandCityList = () => {
     greenlandCities.forEach(city => {
         htmlString += `
             <div class="city">
-                <h2>City Name${city.cityName}</p>
+                <h2>${city.cityName}</h2>
+                <figure class="cityImage">
+                    <img src="${city.cityImage}" alt="Image">
+                </figure>
                 <p>Population: ${city.cityPopulation}</p>
                 <p>Founded: ${city.cityFounded}</p>
-                <p>Image: ${city.cityImage}</p>
-            </div>
+                </div>
         `;
     });
     htmlString += '</div>';
