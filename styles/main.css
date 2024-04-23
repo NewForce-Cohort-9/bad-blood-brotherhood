@@ -2,7 +2,7 @@
 
 
 /* ---------------------------------------------------------------------------- */
-/* ------------------- CSS for index.html page: start ------------------------- */
+/* ------------------- CSS for index.html page: START ------------------------- */
 /* ---------------------------------------------------------------------------- */
 
 #homeBody {
@@ -82,7 +82,7 @@
 }
 
 /* ---------------------------------------------------------------------------- */
-/* ------------------- CSS for index.html page: end ------------------------- */
+/* ------------------- CSS for index.html page: END ------------------------- */
 /* ---------------------------------------------------------------------------- */
 
 
@@ -152,3 +152,69 @@ background-color: orangered;
   color: #1468ad;
 }
 /*-------------------- CSS for vietnam.html page: END -----------------------*/
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------- CSS for stein.html page: START ------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+#steinBody {
+  background-color: #ff6666;
+  color: #00ff00;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.stein__cityContainer {
+  border: 5px solid #000;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 10px #000;
+}
+
+.stein__landmarkContainer {
+  border: 5px solid #000;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 10px #000;
+}
+
+.stein__celebContainer {
+  border: 5px solid #000;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 10px #000;
+}
+
+.fun-fact {
+  text-shadow: 3px 3px 5px #ff0000;
+}
+
+.celebrity-quote {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------- CSS for stein.html page: END ------------------------- */
+/* ---------------------------------------------------------------------------- */
