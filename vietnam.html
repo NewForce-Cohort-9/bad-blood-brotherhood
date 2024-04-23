@@ -62,3 +62,67 @@
 		<script type="module" src="scripts/main.js"></script>
 	</body>
 	</html>
+
+	<!-- BROOKS, HERE IS A SECTION OF HTML THAT I KNOW WILL RUN IF LEFT ON ITS OWN.  TRY TO USE IT TO MERGE INTO WHAT YOU'VE GOT 
+	ALREADY
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+   
+    <header>Welcome to Vietnam!</header>
+
+    <div class = "main-content">
+
+        <section id = "vietnamCityContainer">
+            <h2>Places to go in Vietnam!</h2>
+            <script type="module">
+                import { vietnamCityList } from './scripts/vietnam/cityData.js';
+                document.getElementById('vietnamCityContainer').innerHTML = vietnamCityList();
+            </script>
+
+
+    </div>
+
+   
+    
+    <section id = "vietnamLandmarkContainer">
+        <h3>Things to see in Vietnam!</h3>
+        <script type="module">
+            import { vietnamLandmarkList} from './scripts/vietnam/landmarkData.js'
+            document.getElementById('vietnamLandmarkContainer').innerHTML = vietnamLandmarkList();
+        </script>
+    
+    </section>
+
+    
+
+    <section id = "vietnamCelebrityContainer">
+    <h4>Interesting people from Vietnam!</h4>
+    <script type="module">
+        import {vietnamCelebrityList} from './scripts/vietnam/celebData.js'
+        document.getElementById('vietnamCelebrityContainer').innerHTML = vietnamCelebrityList();
+    </script>
+    </section>
+
+
+
+</div>
+
+<script type="module" src="scripts/vietnam/main.js"></script>
+    <script type="module" src="scripts/vietnam/cityData.js"></script>
+    <script type="module" src="scripts/vietnam/landmarkData.js"></script>
+    <script type="module" src="scripts/vietnam/celebData.js"></script>
+</body>
+
+</html>
+
+
+END OF SECTION-->

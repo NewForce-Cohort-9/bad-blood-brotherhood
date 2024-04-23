@@ -302,14 +302,14 @@ const vietnamDatabase = {
     ]
 }
 
-export const getVCityInfo = () => {
-    return database.cities.map(cities => ({...cities}))
-  }
+export const getVietnamCities = () => {
+    return vietnamDatabase.cities.map(cities => ({...cities}))
+}
 
- export const getVLandmarkInfo = () => {
-    return database.landmarks.map(landmarks => ({...landmarks}))
- } 
+export const getVietnamLandmarks = () => {
+    return vietnamDatabase.landmarks.map(landmarks => ({...landmarks}))
+}
 
- export const getVCelebInfo = () => {
-    return database.celebrities.map(celebrities => ({...celebrities}))
- }
+export const getVietnamCelebrities = () => {
+    return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
+}
