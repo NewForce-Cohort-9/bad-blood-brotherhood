@@ -300,4 +300,81 @@ footer {
 /* ------------------- CSS for stein.html page: END ------------------------- */
 /* ---------------------------------------------------------------------------- */
 
-
+/*-------------------- CSS for cambodia.html page: START -----------------------*/
+#vbody {
+  background-color: orangered;
+  }
+  
+  .ctopnav {
+    background-color: rgb(235, 69, 154);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    /* font-size: 25px;
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1); */
+  }
+  
+  .vtopnav a:hover {
+    background-color: #edfd06;
+    color: black;
+  }
+  
+  .stein__cityContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #99cc997c;
+    padding: 20px;
+    transform: rotate(-5deg);
+    border: 3px dashed #666;
+    border-radius: 10px;
+  }
+  
+  .stein__cityContainer p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Landmark container styles */
+  .stein__landmarkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff99998c;
+    padding: 20px;
+    transform: rotate(3deg);
+    border: 2px dotted #ff0000;
+    border-radius: 15px;
+  }
+  
+  .stein__landmarkContainer h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .stein__funFact {
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Celebrity container styles */
+  .stein__celebContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6699cc;
+    padding: 20px;
+    transform: rotate(-3deg);
+    border: 4px double #0000ff42;
+    border-radius: 25px;
+  }
+  /* ------------------------------------------------------------------------- */
+  /*-------------------- CSS for cambodia.html page: END -----------------------*/
+  /* ------------------------------------------------------------------------- */
