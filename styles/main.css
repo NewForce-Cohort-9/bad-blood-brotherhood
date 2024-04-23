@@ -157,4 +157,29 @@ background-color: orangered;
   background-image: url(/scripts/greenland/images/background.jpg)
 }
 
+#gheader {
+  font-size: 50px; 
+  text-align: center;
+  color: #1e80ff;
+  font-weight: 100em;
+}
+
+#greenlandCities {
+display: flex;
+flex-wrap: wrap;
+color: #9a1eff;
+}
+
+#greenlandLandmarks {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffa600;
+}
+
+#greenlandCelebrities {
+  display: flex;
+  flex-wrap: wrap;
+  color: #24aefd;
+}
+
 /*-------------------- CSS for greenland.html page: END -----------------------*/
