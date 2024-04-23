@@ -114,6 +114,9 @@ background-color: orangered;
   border: solid;
   rotate: 1 1 0 30deg;
 }
+#vietnamCities__text {
+  color: #471eff;
+}
 
 #vietnamLandmarks {
   text-shadow: 5px 5px rgb(155, 252, 10);
@@ -126,6 +129,10 @@ background-color: orangered;
   rotate: 1 1 4 30deg;
 }
 
+#vietnamLandmarks__text {
+  color: #18810e;
+}
+
 #vietnamCelebs {
   text-shadow: 5px 5px rgb(155, 252, 10);
   border: solid;
@@ -134,5 +141,9 @@ background-color: orangered;
   flex-direction: column;
   position: absolute; bottom: -5px; 
   rotate: 1 1 -3 30deg;
+}
+
+#vietnamCelebs__text {
+  color: #1468ad;
 }
 /*-------------------- CSS for vietnam.html page: END -----------------------*/
