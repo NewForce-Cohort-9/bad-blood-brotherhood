@@ -79,13 +79,9 @@ export const getCambodiaLandmarks = () => {
     return cambodiaDatabase.landmarks.map(landmarks => ({...landmarks}))
 }
 
-export const getCambodiaLocations = () => {
+export const getCambodiaCelebrities = () => {
     return cambodiaDatabase.celebrities.map(celebrities =>({...celebrities}))
 }
-
-
-
-
 
 //end exports
 
@@ -154,7 +150,17 @@ const greenlandDatabase = {
 
 //put greenland exports here
 
+export const getGreenlandCities = () => {
+    return greenlandDatabase.cities.map(cities => ({...cities}))
+}
 
+export const getGreenlandLandmarks = () => {
+    return greenlandDatabase.landmarks.map(landmarks => ({...landmarks}))
+}
+
+export const getGreenlandCelebrities = () => {
+    return greenlandDatabase.celebrities.map(celebrities =>({...celebrities}))
+}
 
 
 
@@ -225,6 +231,17 @@ const steinDatabase = {
 
 //put stein exports here
 
+export const getSteinCities = () => {
+    return steinDatabase.cities.map(cities => ({...cities}))
+}
+
+export const getSteinLandmarks = () => {
+    return steinDatabase.landmarks.map(landmarks => ({...landmarks}))
+}
+
+export const getSteinCelebrities = () => {
+    return steinDatabase.celebrities.map(celebrities =>({...celebrities}))
+}
 
 
 

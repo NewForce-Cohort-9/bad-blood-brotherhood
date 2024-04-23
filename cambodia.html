@@ -31,10 +31,18 @@
     </script>
     </section>
 
+    <section id="cambodiaCelebrityContainer">
+        <script type="module">
+            import {cambodiaCelebrityList} from './scripts/cambodia/celebData.js'
+            document.getElementById('cambodiaCelebrityContainer').innerHTML = cambodiaCelebrityList();
+        </script>
+    </section>
+
 
 
     <script type="module" src="scripts/cambodia/main.js"></script>
     <script type="module" src="scripts/cambodia/cityData.js"></script>
     <script type="module" src="scripts/cambodia/landmarkData.js"></script>
+    <script type="module" src="scripts/cambodia/celebData.js"></script>
 </body>
 </html>
