@@ -7,10 +7,12 @@ export const greenlandCelebrityList = () => {
         htmlString += `
             <div class="celebrity">
                 <h2>${celebrity.celebName}</h2>
+                <figure class="celebImage">
+                    <img src="${celebrity.celebImage}" alt="Image">
+                </figure>
                 <p>Quote: ${celebrity.celebQuote}</p>
                 <p>Known For: ${celebrity.celebKnownFor}</p>
-                <p>Image: ${celebrity.celebImage}</p>
-            </div>
+                </div>
         `;
     });
     htmlString += '</div>';

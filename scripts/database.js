@@ -311,5 +311,10 @@ export const getVietnamLandmarks = () => {
 }
 
 export const getVietnamCelebrities = () => {
+<<<<<<< HEAD
     return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
 }
+=======
+    return vietnamDatabase.celebrities.map(celebrities =>({...celebrities})) }
+    
+>>>>>>> main
