@@ -162,21 +162,25 @@ background-color: orangered;
   text-align: center;
   color: #1e80ff;
   font-weight: 100em;
+  text-shadow: 4px 4px rgb(255, 135, 79);
 }
 
 #greenlandCityContainer {
 display: flex;
 flex-wrap: wrap;
-color: #9a1eff;
+flex-direction: column;
+color: #2d1eff;
+font-size: 10px;
 }
 
-#greenlandLandmarks {
+#greenlandLandmarkContainer {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   color: #ffa600;
 }
 
-#greenlandCelebrities {
+#greenlandCelebrityContainer {
   display: flex;
   flex-wrap: wrap;
   color: #24aefd;
