@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambodia</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="topnav">
+                <li><a href="https://www.google.com/">Home</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="cambodiaCityContainer">
+        <script type="module">
+            import { cambodiaCityList } from './scripts/cambodia/cityData.js';
+            document.getElementById('cambodiaCityContainer').innerHTML = cambodiaCityList();
+        </script>
+    </section>
+
+    <section id="cambodiaLandmarkContainer">
+    <script type="module">
+        import { cambodiaLandmarkList} from './scripts/cambodia/landmarkData.js'
+        document.getElementById('cambodiaLandmarkContainer').innerHTML = cambodiaLandmarkList();
+    </script>
+    </section>
+
+    <section id="cambodiaCelebrityContainer">
+        <script type="module">
+            import {cambodiaCelebrityList} from './scripts/cambodia/celebData.js'
+            document.getElementById('cambodiaCelebrityContainer').innerHTML = cambodiaCelebrityList();
+        </script>
+    </section>
+
+
+
+    <script type="module" src="scripts/cambodia/main.js"></script>
+    <script type="module" src="scripts/cambodia/cityData.js"></script>
+    <script type="module" src="scripts/cambodia/landmarkData.js"></script>
+    <script type="module" src="scripts/cambodia/celebData.js"></script>
+</body>
+</html>
