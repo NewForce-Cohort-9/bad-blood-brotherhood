@@ -190,8 +190,19 @@ color: #2d1eff;
 #greenlandCelebrityContainer {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   color: #24aefd;
 }
+
+#greenlandCityContainer img,
+#greenlandLandmarkContainer img,
+#greenlandCelebrityContainer img {
+  max-width: 200px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
 /* ---------------------------------------------------------------------------- */
 /*-------------------- CSS for greenland.html page: END ------------------------*/
 /* ---------------------------------------------------------------------------- */
