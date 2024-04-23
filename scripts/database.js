@@ -218,10 +218,10 @@ const steinDatabase = {
     celebrities: [
         {
             id: 1,
-            celebName: '"Stephanie Vogt"',
+            celebName: "Stephanie Vogt",
             celebImage: '/scripts/stein/images/stephanieVogt.jpg',
             celebQuote: "UUUUUUGH!!! (backhand power tennis shot)",
-            celebKnownFor: "A professional tennis player. Won several singles and doubles titles on the International Tennis Federation (ITF) tour.",
+            celebKnownFor: "Being a professional tennis player. Won several singles and doubles titles on the International Tennis Federation (ITF) tour.",
         },
     ]
 }

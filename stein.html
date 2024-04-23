@@ -10,50 +10,58 @@
 
 <body id="steinBody">
    
+<div class="bounds">
+
+
     <header class="stein__welcomeContainer">
-        <h1>Dine In Sunshine In Liechtenstein!<br>************ Willkommen! *************</h1>
+        <h1>Dine In Sunshine... In Liechtenstein!<br>**************<br>Willkommen!<br>**************</h1>
     </header>
 
-    <main class="stein__info">  <!-- Main container for javascript replacement -->
+    <img class="freeImage" src="scripts\stein\images\liechtenstein.jpg" alt="Bouncing Image">
+    <img class="freeImage3" src="scripts\stein\images\countryL.jpg" alt="Bouncing Image">
+<br><br><br><br><br><br>
+            <main class="stein__info">  <!-- Main container for javascript replacement -->
 
 
-        <section id = "stein__cityContainer">
-            <h2>Places to go in Liechtenstein!</h2>
-            <script type="module">
-                import { steinCityList } from './scripts/stein/cityData.js';
-                document.getElementById('stein__cityContainer').innerHTML = steinCityList();
-            </script>
-        </section>
+                    <section id = "stein__cityContainer">
+                        <h2>Places to go in Liechtenstein!</h2>
+                        <script type="module">
+                            import { steinCityList } from './scripts/stein/cityData.js';
+                            document.getElementById('stein__cityContainer').innerHTML = steinCityList();
+                        </script>
+                    </section>
 
-    
+                
 
-   
-    
-    <section id = "stein__landmarkContainer">
-        <h3>Things to see in Liechtenstein!</h3>
-        <script type="module">
-            import { steinLandmarkList} from './scripts/stein/landmarkData.js'
-            document.getElementById('stein__landmarkContainer').innerHTML = steinLandmarkList();
-        </script>
-    
-    </section>
+            
+                
+                <section id = "stein__landmarkContainer">
+                    <h3>Things to see in Liechtenstein!</h3>
+                    <script type="module">
+                        import { steinLandmarkList} from './scripts/stein/landmarkData.js'
+                        document.getElementById('stein__landmarkContainer').innerHTML = steinLandmarkList();
+                    </script>
+                
+                </section>
 
-    
+                
 
-    <section id = "stein__celebContainer">
-    <h4>Interesting people from Liechtenstein!</h4>
-    <script type="module">
-        import {steinCelebrityList} from './scripts/stein/celebData.js'
-        document.getElementById('stein__celebContainer').innerHTML = steinCelebrityList();
-    </script>
-    </section>
+                <section id = "stein__celebContainer">
+                <h4>Interesting people from Liechtenstein!</h4>
+                <script type="module">
+                    import {steinCelebrityList} from './scripts/stein/celebData.js'
+                    document.getElementById('stein__celebContainer').innerHTML = steinCelebrityList();
+                </script>
+                </section>
 
 
-</main>
+            </main>
 
+            <img class="freeImage2" src="scripts\stein\images\shrekDance.gif" alt="Bouncing Image">
 
 <footer class="steinToHome"><a class="steinHomeLink" href="index.html">HEIM!</a></footer>
-    
+
+</div>
 
 <script type="module" src="scripts/stein/main.js"></script>
     <script type="module" src="scripts/stein/cityData.js"></script>
@@ -62,55 +70,3 @@
 </body>
 
 </html>
-
-<!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>Liechtenstein</title>
-</head>
-
-<body id="steinBody">
-
-    <div class="stein__welcomeContainer">
-        <h1>Welcome to Liechtenstein!</h1>
-    </div>
-
-    <main class="stein__info">  <-- Main container for javascript replacement --
-
-        <div class="stein__cityContainer"></div>
-            <p>City: Vaduz, Schaan, Triesen</p>
-            <p>Population: 5,197 (Vaduz), 5,748 (Schaan), 4,701 (Triesen)</p>
-            <p>Founded: 1st century AD (Vaduz, Schaan), 12th century (Triesen)</p>
-            <img src="" alt="City Image">
-            <img src="" alt="City Image">
-            <img src="" alt="City Image">
-        </div>
-
-        <div class="stein__landmarkContainer">
-            <h2>Landmarks</h2>
-            <p>Name: landmarkName, landmarkName, landmarkName</p>
-            <p class="stein__funFact">Wow, this fact sure is fun</p>
-            <img src="" alt="Landmark Image">
-            <img src="" alt="Landmark Image">
-            <img src="" alt="Landmark Image">
-        </div>
-
-        <div class="stein__celebContainer">
-            <h2>Celebrities</h2>
-            <img src="" alt="Celebrity Image">
-            <p class="stein__celebQuote">"How did I get here?"</p>
-            <p>Inventor of the Fork</p>
-            <img src="" alt="Celeb Image">
-        </div>
-
-    </main>
-
-    <footer class="steinToHome"><a class="steinHomeLink" href="index.html">HEIM!</a></footer>
-    
-</body>
-</html>
--->
