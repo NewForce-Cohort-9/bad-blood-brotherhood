@@ -17,12 +17,16 @@
         </nav>
     </header>
     
-<main id="container">
+    <main id="container">
+        <script type="module">
+            import { cambodiaCityList } from './scripts/cambodia/cityData.js';
+            document.getElementById('container').innerHTML = cambodiaCityList();
+        </script>
+    </main>
 
-</main>
 
 
-
-    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/cambodia/main.js"></script>
+    <script type="module" src="scripts/cambodia/cityData.js"></script>
 </body>
 </html>

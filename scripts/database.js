@@ -70,7 +70,24 @@ const cambodiaDatabase = {
     ]
 }
 
-//put cambodia export here
+//put cambodia exports here
+export const getCambodiaCities = () => {
+    return cambodiaDatabase.cities.map(cities => ({...cities}))
+}
+
+export const getCambodiaLandmarks = () => {
+    return cambodiaDatabase.landmarks.map(landmarks => ({...landmarks}))
+}
+
+export const getCambodiaLocations = () => {
+    return cambodiaDatabase.celebrities.map(celebrities =>({...celebrities}))
+}
+
+
+
+
+
+//end exports
 
 const greenlandDatabase = {
  cities: [
@@ -135,7 +152,13 @@ const greenlandDatabase = {
     ]
 }
 
-//put greenland export here
+//put greenland exports here
+
+
+
+
+
+//end greenland exports
 
 const steinDatabase = {
     cities: [
@@ -200,8 +223,15 @@ const steinDatabase = {
     ]
 }
 
-//put stein export here
+//put stein exports here
 
+
+
+
+
+
+
+//end stein exports
 const vietnamDatabase = {
     cities: [
         {
