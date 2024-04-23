@@ -1,7 +1,18 @@
-import { getVCelebInfo } from "../database.js"
+import { getVietnamCelebrities } from "../database.js";
 
-const allCelebs = getVCelebInfo()
-
-for (const celebs of allCelebs) {
-  console.log(celebs)
-} 
+export const VietnamCelebrityList = () => {
+    const vietnamCelebrities = getVietnamCelebrities(); 
+    let htmlString = '<div class="vietnamCelebrityList">';
+    vietnamCelebrities.forEach(celebrity => {
+        htmlString += `
+            <div class="celebrity">
+                <h2>${celebrity.celebName}</h2>
+                <p>Quote: ${celebrity.celebQuote}</p>
+                <p>Known For: ${celebrity.celebKnownFor}</p>
+                <p>Image: ${celebrity.celebImage}</p>
+            </div>
+        `;
+    });
+    htmlString += '</div>';
+    return htmlString;
+}

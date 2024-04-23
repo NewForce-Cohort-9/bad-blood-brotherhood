@@ -2,7 +2,7 @@ import { getSteinCities } from "../database.js";
 
 export const steinCityList = () => {
     const steinCities = getSteinCities(); 
-    let htmlString = '<div class="SteinCityList">';
+    let htmlString = '<div class="steinCityList">';
     steinCities.forEach(city => {
         htmlString += `
             <div class="city">
