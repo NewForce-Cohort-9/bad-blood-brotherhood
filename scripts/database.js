@@ -246,21 +246,21 @@ const vietnamDatabase = {
         {
             id: 1,
             cityName: "Hanoi",
-            cityImage: 'scripts/vietnam/images/hanoi.webp',
+            cityImage: '/scripts/vietnam/images/hanoi.webp',
             cityPopulation: "5,432,000",
             cityFounded: "257 BC"
 
         },{
             id: 2,
             name: "Cao Bang",
-            cityImage: 'scripts/vietnam/images/bang.webp',
+            cityImage: '/scripts/vietnam/images/bang.webp',
             cityPopulation: "73,549",
             cityFounded: "Between 300 BC to 201 BC"
 
         },{
             id: 3,
             name: "Hue",
-            cityImage: 'scripts/vietnam/images/hue.jpg',
+            cityImage: '/scripts/vietnam/images/hue.jpg',
             cityPopulation: "455,230",
             cityFounded: "1687"
 
@@ -270,19 +270,19 @@ const vietnamDatabase = {
         {
         id: 1,
         landmarkName: "Ban Gioc Waterfall",
-        landmarkImage: 'scripts/vietnam/images/waterfall.jpg',
+        landmarkImage: '/scripts/vietnam/images/waterfall.jpg',
         landmarkFunFact: "It's the fourth-largest waterfall in the world along a national border, after Niagara, Victoria, and Iguazu Falls"
         }, 
         {
          id: 2,
          landmarkName: "Son Doong Cave",
-         landmarkImage: 'scripts/vietnam/images/cave.webp',
+         landmarkImage: '/scripts/vietnam/images/cave.webp',
          landmarkFunFact: "Largest Natural Cave on the planet"
          },
          {
          id: 3,
          landmarkName: "Cu Chi Tunnel",
-         landmarkImage: 'scripts/vietnam/images/tunnels.png',
+         landmarkImage: '/scripts/vietnam/images/tunnels.png',
          landmarkFunFact: "These tunnels can now be explored by tourists. Whether that be crawling through the safe areas, firing an AK-47 on the grounds, or sampling the typical foods that soldiers ate at the time the tunnels were used."
         },
     ],
@@ -290,19 +290,19 @@ const vietnamDatabase = {
         {
             id: 1,
             celebName: "Phan Thị Mỹ Tâm",
-            celebImage: 'scripts/vietnam/images/tam.jpg',
+            celebImage: '/scripts/vietnam/images/tam.jpg',
             celebQuote: "Don’t let them break you",
             celebKnownFor: "Being one of the most successful Vietnamese singers for two decades",
         },{
             id: 2,
             celebName: "Hương Giang",
-            celebImage: 'scripts/vietnam/images/giang.jpg',
+            celebImage: '/scripts/vietnam/images/giang.jpg',
             celebQuote: "Where there’s a will, there’s a way”—” This is true for you, for me, for everyone",
             celebKnownFor: "Being the first Vietnamese representative to participate in Miss International Transgender in Thailand",
         },{
             id: 3,
             celebName: "Linh Ngọc Đàm",
-            celebImage: 'scripts/vietnam/images/ngoc.webp',
+            celebImage: '/scripts/vietnam/images/ngoc.webp',
             celebQuote: "She's got oceans tucked away in her hair, poems swim under her skin",
             celebKnownFor: "Being a famous game streamer, YouTuber, and model",
         },
