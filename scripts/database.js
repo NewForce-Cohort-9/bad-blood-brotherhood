@@ -262,6 +262,14 @@ const vietnamDatabase = {
     ]
 }
 
-/*export const getVDataInfo = () => {
-    return database.vinfo.map(vinfo => ({...vinfo}))
-  }*/
+export const getVCityInfo = () => {
+    return database.cities.map(cities => ({...cities}))
+  }
+
+ export const getVLandmarkInfo = () => {
+    return database.landmarks.map(landmarks => ({...landmarks}))
+ } 
+
+ export const getVCelebInfo = () => {
+    return database.celebrities.map(celebrities => ({...celebrities}))
+ }
