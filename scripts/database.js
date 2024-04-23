@@ -142,21 +142,21 @@ const steinDatabase = {
         {
             id: 1,
             cityName: "Vaduz",
-            cityImage: "PutImageHere",
+            cityImage: '/scripts/stein/images/vaduz.jpg',
             cityPopulation: "5,197",
             cityFounded: "1st century AD"
 
         },{
             id: 2,
             name: "Schaan",
-            cityImage: "PutImageHere",
+            cityImage: '/scripts/stein/images/schaan.jpg',
             cityPopulation: "5,748",
             cityFounded: "1st century AD"
 
         },{
             id: 3,
             name: "Triesen",
-            cityImage: "PutImageHere",
+            cityImage: '/scripts/stein/images/triesen.jpg',
             cityPopulation: "4,701",
             cityFounded: "12th century"
         },
@@ -165,27 +165,27 @@ const steinDatabase = {
         {
             id: 1,
             landmarkName: "Kunstmuseum Liechtenstein",
-            landmarkImage: "PutImageHere",
+            landmarkImage: '/scripts/stein/images/kunstmuseumLiechtenstein.jpg',
             landmarkFunFact: "Houses an impressive collection of contemporary and modern artworks, including pieces by renowned artists like Marc Chagall and Max Ernst."
         }, 
         {
             id: 2,
             landmarkName: "Vaduz Castle",
-            landmarkImage: "PutImageHere",
+            landmarkImage: '/scripts/stein/images/vaduzCastle.jpg',
             landmarkFunFact: "Vaduz Castle is the official residence of the Prince of Liechtenstein and offers picturesque views of the surrounding area."
          },
          {
             id: 3,
             landmarkName: "Alte Rheinbrucke (Old Rhine Bridge)",
-            landmarkImage: "PutImageHere",
+            landmarkImage: '/scripts/stein/images/alteRheinbrucke.jpg',
             landmarkFunFact: "Provides stunning views of Vaduz Castle from the Swiss side and is a charming spot to enjoy the scenic beauty of the region."
         },
     ],
     celebrities: [
         {
             id: 1,
-            celebName: "Stephanie Vogt",
-            celebImage: "PutImageHere",
+            celebName: '"Stephanie Vogt"',
+            celebImage: '/scripts/stein/images/stephanieVogt.jpg',
             celebQuote: "UUUUUUGH!!! (backhand power tennis shot)",
             celebKnownFor: "A professional tennis player. Won several singles and doubles titles on the International Tennis Federation (ITF) tour.",
         },

@@ -232,6 +232,33 @@ background-color: orangered;
   border-radius: 25px;
 }
 
+/* HEIM! - Home link made tricky... */
+.steinHomeLink::before {
+  width: 0;
+  white-space: nowrap;
+}
+
+.steinHomeLink:hover::before {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.steinHomeLink {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 130px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.steinHomeLink:hover {
+  font-size: 15px;
+  transform: translateX(100px);
+}
+
 /* ---------------------------------------------------------------------------- */
 /* ------------------- CSS for stein.html page: END ------------------------- */
 /* ---------------------------------------------------------------------------- */
