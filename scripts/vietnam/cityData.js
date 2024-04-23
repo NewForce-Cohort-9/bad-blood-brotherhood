@@ -1,7 +1,18 @@
-import { getVCityInfo } from "../database.js"
+import { getVietnamCities } from "../database.js";
 
-const allCities = getVCityInfo()
-
-for (const cities of allCities) {
-  console.log(cities)
-} 
+export const vietnamCityList = () => {
+    const vietnamCities = getVietnamCities(); 
+    let htmlString = '<div class="vietnamCityList">';
+    vietnamCities.forEach(city => {
+        htmlString += `
+            <div class="city">
+                <h2>${city.cityName}</h2>
+                <p>Population: ${city.cityPopulation}</p>
+                <p>Founded: ${city.cityFounded}</p>
+                <p>Image: ${city.cityImage}</p>
+            </div>
+        `;
+    });
+    htmlString += '</div>';
+    return htmlString;
+}

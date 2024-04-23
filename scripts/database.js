@@ -89,33 +89,26 @@ const greenlandDatabase = {
  cities: [
         {
             id: 1,
-            cityName: "CityName",
+            cityName: "Nuuk",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: 1997
+            cityPopulation: "19279",
+            cityFounded: "1728"
 
         },{
             id: 2,
-            name: "CityName",
+            name: "Sisimiut",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+            cityPopulation: "5620",
+            cityFounded: "1756"
 
         },{
             id: 3,
-            name: "CityName",
+            name: "Ilulissat",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+            cityPopulation: "4737",
+            cityFounded: "1741"
 
-        },{
-            id: 4,
-            name: "CityName",
-            cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
-
-        },    
+        },
     ],
     landmarks: [
         {
@@ -309,14 +302,14 @@ const vietnamDatabase = {
     ]
 }
 
-export const getVCityInfo = () => {
-    return database.cities.map(cities => ({...cities}))
-  }
+export const getVietnamCities = () => {
+    return vietnamDatabase.cities.map(cities => ({...cities}))
+}
 
- export const getVLandmarkInfo = () => {
-    return database.landmarks.map(landmarks => ({...landmarks}))
- } 
+export const getVietnamLandmarks = () => {
+    return vietnamDatabase.landmarks.map(landmarks => ({...landmarks}))
+}
 
- export const getVCelebInfo = () => {
-    return database.celebrities.map(celebrities => ({...celebrities}))
- }
+export const getVietnamCelebrities = () => {
+    return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
+}
