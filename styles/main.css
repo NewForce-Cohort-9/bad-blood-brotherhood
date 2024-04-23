@@ -164,7 +164,7 @@ background-color: orangered;
   font-weight: 100em;
 }
 
-#greenlandCities {
+#greenlandCityContainer {
 display: flex;
 flex-wrap: wrap;
 color: #9a1eff;
