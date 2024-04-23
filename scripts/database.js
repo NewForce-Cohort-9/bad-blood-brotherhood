@@ -163,31 +163,31 @@ const steinDatabase = {
     ],
     landmarks: [
         {
-        id: 1,
-        landmarkName: "Name",
-        landmarkImage: "PutImageHere",
-        landmarkFunFact: "Wow, this fact sure is fun"
+            id: 1,
+            landmarkName: "Kunstmuseum Liechtenstein",
+            landmarkImage: "PutImageHere",
+            landmarkFunFact: "Houses an impressive collection of contemporary and modern artworks, including pieces by renowned artists like Marc Chagall and Max Ernst."
         }, 
         {
-         id: 2,
-         landmarkName: "Name",
-        landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+            id: 2,
+            landmarkName: "Vaduz Castle",
+            landmarkImage: "PutImageHere",
+            landmarkFunFact: "Vaduz Castle is the official residence of the Prince of Liechtenstein and offers picturesque views of the surrounding area."
          },
          {
-         id: 3,
-         landmarkName: "Name",
-         landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+            id: 3,
+            landmarkName: "Alte Rheinbrucke (Old Rhine Bridge)",
+            landmarkImage: "PutImageHere",
+            landmarkFunFact: "Provides stunning views of Vaduz Castle from the Swiss side and is a charming spot to enjoy the scenic beauty of the region."
         },
     ],
     celebrities: [
         {
             id: 1,
-            celebName: "NameOfCelebrity",
+            celebName: "Stephanie Vogt",
             celebImage: "PutImageHere",
-            celebQuote: "How did I get here?",
-            celebKnownFor: "Inventor of the Fork",
+            celebQuote: "UUUUUUGH!!! (backhand power tennis shot)",
+            celebKnownFor: "A professional tennis player. Won several singles and doubles titles on the International Tennis Federation (ITF) tour.",
         },
     ]
 }
