@@ -154,10 +154,47 @@ background-color: orangered;
 #vietnamCelebs__text {
   color: #1468ad;
 }
+/* ------------------------------------------------------------------------- */
 /*-------------------- CSS for vietnam.html page: END -----------------------*/
+/* ------------------------------------------------------------------------- */
 
+/* ---------------------------------------------------------------------------- */
+/*-------------------- CSS for greenland.html page: START ----------------------*/
+/* ---------------------------------------------------------------------------- */
+#gbody {
+  background-image: url(/scripts/greenland/images/background.jpg)
+}
 
+#gheader {
+  font-size: 50px; 
+  text-align: center;
+  color: #1e80ff;
+  font-weight: 100em;
+  text-shadow: 4px 4px rgb(255, 135, 79);
+}
 
+#greenlandCityContainer {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+color: #2d1eff;
+}
+
+#greenlandLandmarkContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #ffa600;
+}
+
+#greenlandCelebrityContainer {
+  display: flex;
+  flex-wrap: wrap;
+  color: #24aefd;
+}
+/* ---------------------------------------------------------------------------- */
+/*-------------------- CSS for greenland.html page: END ------------------------*/
+/* ---------------------------------------------------------------------------- */
 
 /* ---------------------------------------------------------------------------- */
 /* ------------------- CSS for stein.html page: START ------------------------- */

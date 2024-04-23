@@ -7,8 +7,10 @@ export const steinLandmarkList = () => {
         htmlString += `
             <div class="landmark">
                 <h2>${landmark.landmarkName}</h2>
+                <figure class="landmarkImage">
+                    <img src="${landmark.landmarkImage}" alt="Image">
+                </figure>
                 <p>Fun Fact: ${landmark.landmarkFunFact}</p>
-                <p>Image: ${landmark.landmarkImage}</p>
             </div>
         `;
     });
