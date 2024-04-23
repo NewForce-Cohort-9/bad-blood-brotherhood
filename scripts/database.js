@@ -113,30 +113,42 @@ const greenlandDatabase = {
     landmarks: [
         {
         id: 1,
-        landmarkName: "Name",
+        landmarkName: "Brattahlíð",
         landmarkImage: "PutImageHere",
-        landmarkFunFact: "Wow, this fact sure is fun"
+        landmarkFunFact: "Former home of Erik the Red"
         }, 
         {
          id: 2,
-         landmarkName: "Name",
+         landmarkName: "Hvalsey Church",
         landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+         landmarkFunFact: "Last known Viking presence in Greenland"
          },
          {
          id: 3,
-         landmarkName: "Name",
+         landmarkName: "Etah",
          landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+         landmarkFunFact: "Beautiful land and former staging site for North Pole expeditions"
         },
     ],
     celebrities: [
         {
             id: 1,
-            celebName: "NameOfCelebrity",
+            celebName: "Maliina Abelsen",
             celebImage: "PutImageHere",
-            celebQuote: "How did I get here?",
-            celebKnownFor: "Inventor of the Fork",
+            celebQuote: "It does not matter what one says here, few will bother looking it up anyway.",
+            celebKnownFor: "Minister of Finance",
+        },{
+            id: 2,
+            celebName: "Rasmus Lyberth",
+            celebImage: "PutImageHere",
+            celebQuote: "Getting bored is much more pleasant than getting breached",
+            celebKnownFor: "Musician and actor",
+        },{
+            id: 3,
+            celebName: "Nukâka Coster-Waldau",
+            celebImage: "PutImageHere",
+            celebQuote: "The key to living profoundly is found in vague instructions about living your best life. That's what I do.",
+            celebKnownFor: "Singer and actress",
         },
     ]
 }
@@ -310,6 +322,7 @@ export const getVietnamLandmarks = () => {
     return vietnamDatabase.landmarks.map(landmarks => ({...landmarks}))
 }
 
+
 export const getVietnamCelebrities = () => {
-    return vietnamDatabase.celebrities.map(celebrities =>({...celebrities})) }
-    
+    return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
+}
