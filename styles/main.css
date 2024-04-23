@@ -130,7 +130,7 @@ h1 {
   color: #471eff;
 }
 
-#vietnamLandmarks {
+#vietnamLandmarkContainer {
   text-shadow: 5px 5px rgb(155, 252, 10);
   border: solid;
   display: flex;
@@ -146,7 +146,7 @@ h1 {
   color: #18810e;
 }
 
-#vietnamCelebs {
+#vietnamCelebrityContainer {
   text-shadow: 5px 5px rgb(155, 252, 10);
   border: solid;
   display: flex;
