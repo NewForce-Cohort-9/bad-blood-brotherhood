@@ -1,7 +1,7 @@
-import { getVCityInfo } from "../database.js"
+import { getVLandmarkInfo } from "../database.js"
 
-const allCities = getVCityInfo()
+const allLandmarks = getVLandmarkInfo()
 
-for (const cities of allCities) {
-  console.log(cities)
+for (const landmarks of allLandmarks) {
+  console.log(landmarks)
 } 

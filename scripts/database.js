@@ -277,3 +277,7 @@ export const getVCityInfo = () => {
  export const getVLandmarkInfo = () => {
     return database.landmarks.map(landmarks => ({...landmarks}))
  } 
+
+ export const getVCelebInfo = () => {
+    return database.celebrities.map(celebrities => ({...celebrities}))
+ }
