@@ -90,21 +90,21 @@ const greenlandDatabase = {
         {
             id: 1,
             cityName: "Nuuk",
-            cityImage: "PutImageHere",
+            cityImage: 'scripts/greenland/images/nuuk-image.jpg',
             cityPopulation: "19279",
             cityFounded: "1728"
 
         },{
             id: 2,
-            name: "Sisimiut",
-            cityImage: "PutImageHere",
+            cityName: "Sisimiut",
+            cityImage: 'scripts/greenland/images/sisimiut-image.jpg',
             cityPopulation: "5620",
             cityFounded: "1756"
 
         },{
             id: 3,
-            name: "Ilulissat",
-            cityImage: "PutImageHere",
+            cityName: "Ilulissat",
+            cityImage: 'scripts/greenland/images/ilulissat-image.jpg',
             cityPopulation: "4737",
             cityFounded: "1741"
 
@@ -114,19 +114,19 @@ const greenlandDatabase = {
         {
         id: 1,
         landmarkName: "Brattahlíð",
-        landmarkImage: "PutImageHere",
+        landmarkImage: 'scripts/greenland/images/bratt-image.jpg',
         landmarkFunFact: "Former home of Erik the Red"
         }, 
         {
          id: 2,
          landmarkName: "Hvalsey Church",
-        landmarkImage: "PutImageHere",
+        landmarkImage: 'scripts/greenland/images/hvalsey-image.jpg',
          landmarkFunFact: "Last known Viking presence in Greenland"
          },
          {
          id: 3,
          landmarkName: "Etah",
-         landmarkImage: "PutImageHere",
+         landmarkImage: 'scripts/greenland/images/etah-image.jpg',
          landmarkFunFact: "Beautiful land and former staging site for North Pole expeditions"
         },
     ],
@@ -134,19 +134,19 @@ const greenlandDatabase = {
         {
             id: 1,
             celebName: "Maliina Abelsen",
-            celebImage: "PutImageHere",
+            celebImage: 'scripts/greenland/images/maliina-image.jpg',
             celebQuote: "It does not matter what one says here, few will bother looking it up anyway.",
             celebKnownFor: "Minister of Finance",
         },{
             id: 2,
             celebName: "Rasmus Lyberth",
-            celebImage: "PutImageHere",
+            celebImage: 'scripts/greenland/images/rasmus-image.jpg',
             celebQuote: "Getting bored is much more pleasant than getting breached",
             celebKnownFor: "Musician and actor",
         },{
             id: 3,
             celebName: "Nukâka Coster-Waldau",
-            celebImage: "PutImageHere",
+            celebImage: 'scripts/greenland/images/nukaka-image.jpg',
             celebQuote: "The key to living profoundly is found in vague instructions about living your best life. That's what I do.",
             celebKnownFor: "Singer and actress",
         },
