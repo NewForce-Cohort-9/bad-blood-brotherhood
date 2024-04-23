@@ -3,21 +3,21 @@ const cambodiaDatabase = {
         {
             id: 1,
             cityName: "Phnom Penh",
-            cityImage: "PutImageHere",
+            cityImage: '/scripts/cambodia/images/Phnom_Penh.jpg',
             cityPopulation: "2,281,951",
             cityFounded: "5th Century"
 
         },{
             id: 2,
-            name: "Siem Reap",
-            cityImage: "PutImageHere",
+            cityName: "Siem Reap",
+            cityImage: '/scripts/cambodia/images/Siem_Reap.jpg',
             cityPopulation: "245,494",
             cityFounded: "802"
 
         },{
             id: 3,
-            name: "Battambang",
-            cityImage: "PutImageHere",
+            cityName: "Battambang",
+            cityImage: '/scripts/cambodia/images/Battambang.JPG',
             cityPopulation: "119,251",
             cityFounded: "11th Century"
 
@@ -29,19 +29,19 @@ const cambodiaDatabase = {
         {
         id: 1,
         landmarkName: "Angkor Wat",
-        landmarkImage: "PutImageHere",
+        landmarkImage: '/scripts/cambodia/images/Angkor_Wat.jpg',
         landmarkFunFact: "Widely known as a location in Lara Croft: Tomb Raider"
         }, 
         {
          id: 2,
          landmarkName: "Tuol Sleng Genocide Museum",
-        landmarkImage: "PutImageHere",
+        landmarkImage: '/scripts/cambodia/images/Tuol_Sleng.jpg',
          landmarkFunFact: "See Kissinger's contribution to a dark time in Cambodian history"
          },
          {
          id: 3,
          landmarkName: "Royal Palace",
-         landmarkImage: "PutImageHere",
+         landmarkImage: '/scripts/cambodia/images/Royal_Palace_Phnom_Penh.jpg',
          landmarkFunFact: "Cambodia's Royal Palace since 1866"
         },
     ],
@@ -49,21 +49,21 @@ const cambodiaDatabase = {
         {
             id: 1,
             celebName: "Rithy Panh",
-            celebImage: "PutImageHere",
+            celebImage: '/scripts/cambodia/images/Rithy_Panh.jpg',
             celebQuote: "I have only one life, and I can't do all. If I do one thing well, I'm happy.",
             celebKnownFor: "Rithy Panh is a Cambodian documentary film director and screenwriter",
         },
 	{
             id: 2,
             celebName: "Norodom Sihamoni",
-            celebImage: "PutImageHere",
+            celebImage: '/scripts/cambodia/images/Norodom_Sihamoni.jpg',
             celebQuote: "I will devote my body and soul to the service of the people and the nation.",
             celebKnownFor: "Elected King of Cambodia",
         },
 	{
             id: 3,
             celebName: "Yubin Shin",
-            celebImage: "PutImageHere",
+            celebImage: '/scripts/cambodia/images/Yubin_Shin.jpg',
             celebQuote: "Every achievement I made is only a step to success. Success has no boundary.",
             celebKnownFor: "Well known actress",
         },
@@ -310,6 +310,12 @@ export const getVietnamLandmarks = () => {
     return vietnamDatabase.landmarks.map(landmarks => ({...landmarks}))
 }
 
+<<<<<<< HEAD
+ export const getVCelebInfo = () => {
+    return database.celebrities.map(celebrities => ({...celebrities}))
+ }
+=======
 export const getVietnamCelebrities = () => {
     return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
 }
+>>>>>>> main
