@@ -1,8 +1,16 @@
-
+//cities
 import { cambodiaCityList } from './cityData.js';
 
 
-const container = document.getElementById('container');
+const cambodiaCityContainer = document.getElementById('cambodiaCityContainer');
 
 
-container.innerHTML = cambodiaCityList();
+cambodiaCityContainer.innerHTML = cambodiaCityList();
+
+//landmarks
+
+import { cambodiaLandmarkList } from './landmarkData.js';
+
+const cambodiaLandmarkContainer = document.getElementById('cambodiaLandmarkContainer');
+
+cambodiaLandmarkContainer.innerHTML = cambodiaLandmarkList();
