@@ -309,13 +309,3 @@ export const getVietnamCities = () => {
 export const getVietnamLandmarks = () => {
     return vietnamDatabase.landmarks.map(landmarks => ({...landmarks}))
 }
-
-<<<<<<< HEAD
- export const getVCelebInfo = () => {
-    return database.celebrities.map(celebrities => ({...celebrities}))
- }
-=======
-export const getVietnamCelebrities = () => {
-    return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
-}
->>>>>>> main
