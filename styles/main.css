@@ -217,7 +217,7 @@ color: #2d1eff;
 }
 
 /* City container styles */
-.stein__cityContainer {
+#stein__cityContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,7 +235,7 @@ color: #2d1eff;
 }
 
 /* Landmark container styles */
-.stein__landmarkContainer {
+#stein__landmarkContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,7 +258,7 @@ color: #2d1eff;
 }
 
 /* Celebrity container styles */
-.stein__celebContainer {
+#stein__celebContainer {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -10,43 +10,46 @@
 
 <body id="steinBody">
    
-    <header>Welcome to Liechtenstein!</header>
+    <header class="stein__welcomeContainer">
+        <h1>Dine In Sunshine In Liechtenstein!<br>************ Willkommen! *************</h1>
+    </header>
 
-    <div class = "main-content">
+    <main class="stein__info">  <!-- Main container for javascript replacement -->
 
-        <section id = "steinCityContainer">
+
+        <section id = "stein__cityContainer">
             <h2>Places to go in Liechtenstein!</h2>
             <script type="module">
                 import { steinCityList } from './scripts/stein/cityData.js';
-                document.getElementById('steinCityContainer').innerHTML = steinCityList();
+                document.getElementById('stein__cityContainer').innerHTML = steinCityList();
             </script>
+        </section>
 
-
-    </div>
+    
 
    
     
-    <section id = "steinLandmarkContainer">
+    <section id = "stein__landmarkContainer">
         <h3>Things to see in Liechtenstein!</h3>
         <script type="module">
             import { steinLandmarkList} from './scripts/stein/landmarkData.js'
-            document.getElementById('steinLandmarkContainer').innerHTML = steinLandmarkList();
+            document.getElementById('stein__landmarkContainer').innerHTML = steinLandmarkList();
         </script>
     
     </section>
 
     
 
-    <section id = "steinCelebrityContainer">
+    <section id = "stein__celebContainer">
     <h4>Interesting people from Liechtenstein!</h4>
     <script type="module">
         import {steinCelebrityList} from './scripts/stein/celebData.js'
-        document.getElementById('steinCelebrityContainer').innerHTML = steinCelebrityList();
+        document.getElementById('stein__celebContainer').innerHTML = steinCelebrityList();
     </script>
     </section>
 
 
-</div>
+</main>
 
 
 <footer class="steinToHome"><a class="steinHomeLink" href="index.html">HEIM!</a></footer>

@@ -5,9 +5,9 @@ export const steinCityList = () => {
     let htmlString = '<div class="steinCityList">';
     steinCities.forEach(city => {
         htmlString += `
-            <div class="city">
+            <div class="sCity">
                 <h2>${city.cityName}</h2>
-                <figure class="cityImage">
+                <figure class="sCityImage">
                     <img src="${city.cityImage}" alt="Image">
                 </figure>
                 <p>Population: ${city.cityPopulation}</p>

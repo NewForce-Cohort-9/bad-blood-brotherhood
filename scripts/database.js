@@ -182,14 +182,14 @@ const steinDatabase = {
 
         },{
             id: 2,
-            name: "Schaan",
+            cityName: "Schaan",
             cityImage: '/scripts/stein/images/schaan.jpg',
             cityPopulation: "5,748",
             cityFounded: "1st century AD"
 
         },{
             id: 3,
-            name: "Triesen",
+            cityName: "Triesen",
             cityImage: '/scripts/stein/images/triesen.jpg',
             cityPopulation: "4,701",
             cityFounded: "12th century"
