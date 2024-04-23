@@ -2,11 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
     <title>Liechtenstein</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
+
 <body>
+   
+    <header>Welcome to Liechtenstein!</header>
+
+    <div class = "main-content">
+
+        <section id = "steinCityContainer">
+            <h2>Places to go in Liechtenstein!</h2>
+            <script type="module">
+                import { steinCityList } from './scripts/stein/cityData.js';
+                document.getElementById('steinCityContainer').innerHTML = steinCityList();
+            </script>
+
+
+    </div>
+
+   
     
+    <section id = "steinLandmarkContainer">
+        <h3>Things to see in Liechtenstein!</h3>
+        <script type="module">
+            import { steinLandmarkList} from './scripts/stein/landmarkData.js'
+            document.getElementById('steinLandmarkContainer').innerHTML = steinLandmarkList();
+        </script>
+    
+    </section>
+
+    
+
+    <section id = "steinCelebrityContainer">
+    <h4>Interesting people from Liechtenstein!</h4>
+    <script type="module">
+        import {steinCelebrityList} from './scripts/stein/celebData.js'
+        document.getElementById('steinCelebrityContainer').innerHTML = steinCelebrityList();
+    </script>
+    </section>
+
+
+
+</div>
+
+<script type="module" src="scripts/stein/main.js"></script>
+    <script type="module" src="scripts/stein/cityData.js"></script>
+    <script type="module" src="scripts/stein/landmarkData.js"></script>
+    <script type="module" src="scripts/stein/celebData.js"></script>
 </body>
+
 </html>
