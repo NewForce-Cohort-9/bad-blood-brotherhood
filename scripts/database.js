@@ -257,14 +257,14 @@ const vietnamDatabase = {
 
         },{
             id: 2,
-            name: "Cao Bang",
+            cityName: "Cao Bang",
             cityImage: '/scripts/vietnam/images/bang.webp',
             cityPopulation: "73,549",
             cityFounded: "Between 300 BC to 201 BC"
 
         },{
             id: 3,
-            name: "Hue",
+            cityName: "Hue",
             cityImage: '/scripts/vietnam/images/hue.jpg',
             cityPopulation: "455,230",
             cityFounded: "1687"
@@ -324,11 +324,5 @@ export const getVietnamLandmarks = () => {
 
 
 export const getVietnamCelebrities = () => {
-<<<<<<< HEAD
-    return vietnamDatabase.celebrities.map(celebrities =>({...celebrities})) 
-}
-    
-=======
     return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
 }
->>>>>>> main

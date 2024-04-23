@@ -1,11 +1,13 @@
-	<!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Vietnam</title>
-		<link rel="stylesheet" href="styles/main.css">
-		</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
 
 	<body id="vbody">
 
@@ -13,6 +15,8 @@
 		<h1 style="text-align: center; color: rgb(5, 255, 130);">
 		Welcome To Vietnam
 		</h1>
+
+		<!--Moving Text Above NAV BAR-->
 		<marquee style="color: rgb(7, 51, 250); font-size: 17px;" scrollamount="15"> Home of the Pho</marquee>
 		<marquee direction="right" behavior="alternate"
 				style="border:rgb(208, 255, 0) 2px dashed; color:rgb(7, 51, 250); font-size: 17px;" scrollamount="15">
@@ -31,36 +35,51 @@
 	</nav>
 		
 		<!--Middle components-->
-		<main class="container">
+		<div class = "main-content">
 
-		<section>
-		<div id="vietnamCities">
-		<div id="vietnamCities__text">
+		<section id="vietnamCityContainer">
+			<div id="vietnamCities">
+				<div id="vietnamCities__text">
 		<h2>Take a trip through some of the wonderful cities in Vietnam!</h2>
-		<p>Random text for flexbox</p>
+		<script type="module">
+			 import { vietnamCityList } from './scripts/vietnam/cityData.js';
+                document.getElementById('vietnamCityContainer').innerHTML = vietnamCityList();
+		</script>
 	</div>
-		<img>
 	</div>
+</section>
 
+<section id = "vietnamLandmarkContainer">
 	<div id="vietnamLandmarks">
 		<div id="vietnamLandmarks__text">
 		<h3>Just a peak into some of Vietnam's landmarks!</h3>
-		<p>Random text for flexbox</p>
+		<script type="module">
+			import { vietnamLandmarkList} from './scripts/vietnam/landmarkData.js'
+			document.getElementById('vietnamLandmarkContainer').innerHTML = vietnamLandmarkList();
+		</script>
 	</div>
-		<img>
 	</div>
+</section>
 
+<section id = "vietnamCelebrityContainer">
 	<div id="vietnamCelebs">
 		<div id="vietnamCelebs__text">
 		<h4>Who are some of the influencers in vietnam?</h4>
-		<p>Random text for flexbox</p>
-		<img>
+		<script type="module">
+			import {vietnamCelebrityList} from './scripts/vietnam/celebData.js'
+			document.getElementById('vietnamCelebrityContainer').innerHTML = vietnamCelebrityList();
+		</script>
 	</div>
 	</div>
 		</section>
-		</main>
 
-		<script type="module" src="scripts/main.js"></script>
+</div>
+
+<script type="module" src="scripts/vietnam/main.js"></script>
+<script type="module" src="scripts/vietnam/cityData.js"></script>
+<script type="module" src="scripts/vietnam/landmarkData.js"></script>
+<script type="module" src="scripts/vietnam/celebData.js"></script>
+
 	</body>
 	</html>
 

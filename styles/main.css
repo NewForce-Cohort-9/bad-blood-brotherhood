@@ -94,6 +94,8 @@ background-color: orangered;
 
 h1 {
   text-shadow: 5px 6px rgb(252, 236, 10);
+  transform: rotate(180deg);
+  font-size: 50px;
 }
 
 .vtopnav {
@@ -114,7 +116,6 @@ h1 {
   background-color: #edfd06;
   color: black;
 }
-
 #vietnamCities {
   text-shadow: 5px 5px rgb(155, 252, 10);
   border: solid;
