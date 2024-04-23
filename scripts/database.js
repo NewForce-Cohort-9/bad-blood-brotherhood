@@ -141,33 +141,25 @@ const steinDatabase = {
     cities: [
         {
             id: 1,
-            cityName: "CityName",
+            cityName: "Vaduz",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: 1997
+            cityPopulation: "5,197",
+            cityFounded: "1st century AD"
 
         },{
             id: 2,
-            name: "CityName",
+            name: "Schaan",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+            cityPopulation: "5,748",
+            cityFounded: "1st century AD"
 
         },{
             id: 3,
-            name: "CityName",
+            name: "Triesen",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
-
-        },{
-            id: 4,
-            name: "CityName",
-            cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
-
-        },    
+            cityPopulation: "4,701",
+            cityFounded: "12th century"
+        },
     ],
     landmarks: [
         {
