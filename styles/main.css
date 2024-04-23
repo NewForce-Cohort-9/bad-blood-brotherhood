@@ -150,3 +150,11 @@ background-color: orangered;
   color: #1468ad;
 }
 /*-------------------- CSS for vietnam.html page: END -----------------------*/
+
+
+/*-------------------- CSS for greenland.html page: START -----------------------*/
+#gbody {
+  background-image: url(/scripts/greenland/images/background.jpg)
+}
+
+/*-------------------- CSS for greenland.html page: END -----------------------*/
