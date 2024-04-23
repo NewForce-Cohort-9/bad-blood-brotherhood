@@ -80,6 +80,31 @@
 /* ------------------- CSS for index.html page: end ------------------------- */
 /* ---------------------------------------------------------------------------- */
 
-.vbody {
+#vbody {
 background-color: orangered;
+}
+
+.vtopnav {
+  background-color: rgb(240, 6, 240);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+.vtopnav a:hover {
+  background-color: #edfd06;
+  color: black;
+}
+
+#vietnamCities {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+}
+
+#vietnamLandmarks {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+}
+
+#vietnamCelebs {
+  text-shadow: 5px 5px rgb(155, 252, 10);
 }

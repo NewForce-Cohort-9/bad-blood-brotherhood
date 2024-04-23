@@ -206,63 +206,70 @@ const vietnamDatabase = {
     cities: [
         {
             id: 1,
-            cityName: "CityName",
+            cityName: "Hanoi",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: 1997
+            cityPopulation: "5,432,000",
+            cityFounded: "257 BC"
 
         },{
             id: 2,
-            name: "CityName",
+            name: "Cao Bang",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+            cityPopulation: "73,549",
+            cityFounded: "Between 300 BC to 201 BC"
 
         },{
             id: 3,
-            name: "CityName",
+            name: "Hue",
             cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
+            cityPopulation: "455,230",
+            cityFounded: "1687"
 
-        },{
-            id: 4,
-            name: "CityName",
-            cityImage: "PutImageHere",
-            cityPopulation: 10,
-            cityFounded: "1997"
-
-        },    
+        }, 
     ],
     landmarks: [
         {
         id: 1,
-        landmarkName: "Name",
+        landmarkName: "Ban Gioc Waterfall",
         landmarkImage: "PutImageHere",
-        landmarkFunFact: "Wow, this fact sure is fun"
+        landmarkFunFact: "It's the fourth-largest waterfall in the world along a national border, after Niagara, Victoria, and Iguazu Falls"
         }, 
         {
          id: 2,
-         landmarkName: "Name",
+         landmarkName: "Son Doong Cave",
         landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+         landmarkFunFact: "Largest Natural Cave on the planet"
          },
          {
          id: 3,
-         landmarkName: "Name",
+         landmarkName: "Cu Chi Tunnel",
          landmarkImage: "PutImageHere",
-         landmarkFunFact: "Wow, this fact sure is fun"
+         landmarkFunFact: "These tunnels can now be explored by tourists. Whether that be crawling through the safe areas, firing an AK-47 on the grounds, or sampling the typical foods that soldiers ate at the time the tunnels were used."
         },
     ],
     celebrities: [
         {
             id: 1,
-            celebName: "NameOfCelebrity",
+            celebName: "Phan Thị Mỹ Tâm",
             celebImage: "PutImageHere",
-            celebQuote: "How did I get here?",
-            celebKnownFor: "Inventor of the Fork",
+            celebQuote: "Don’t let them break you",
+            celebKnownFor: "Being one of the most successful Vietnamese singers for two decades",
+        },{
+            id: 2,
+            celebName: "Hương Giang",
+            celebImage: "PutImageHere",
+            celebQuote: "Where there’s a will, there’s a way”—” This is true for you, for me, for everyone",
+            celebKnownFor: "Being the first Vietnamese representative to participate in Miss International Transgender in Thailand",
+        },{
+            id: 3,
+            celebName: "Linh Ngọc Đàm",
+            celebImage: "PutImageHere",
+            celebQuote: "She's got oceans tucked away in her hair, poems swim under her skin",
+            celebKnownFor: "Being a famous game streamer, YouTuber, and model",
         },
     ]
 }
 
-//put vietnam export here
+/*export const getVDataInfo = () => {
+    return database.vinfo.map(vinfo => ({...vinfo}))
+  }*/
