@@ -312,3 +312,4 @@ export const getVietnamLandmarks = () => {
 
 export const getVietnamCelebrities = () => {
     return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
+}
