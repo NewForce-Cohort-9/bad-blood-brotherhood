@@ -15,33 +15,45 @@
 
     <div class = "main-content">
 
-        <section id = "greenlandCities">
+        <section id = "greenlandCityContainer">
             <h2>Places to go in Greenland!</h2>
-        
-        </aside>
+            <script type="module">
+                import { greenlandCityList } from './scripts/greenland/cityData.js';
+                document.getElementById('greenlandCityContainer').innerHTML = greenlandCityList();
+            </script>
+
 
     </div>
 
    
     
-    <section id = "greenlandLandmarks">
+    <section id = "greenlandLandmarkContainer">
         <h3>Things to see in Greenland!</h3>
-
+        <script type="module">
+            import { greenlandLandmarkList} from './scripts/greenland/landmarkData.js'
+            document.getElementById('greenlandLandmarkContainer').innerHTML = greenlandLandmarkList();
+        </script>
     
     </section>
 
     
 
-    <section id = "greenlandCelebrities">
+    <section id = "greenlandCelebrityContainer">
     <h4>Interesting people from Greenland!</h4>
-    
+    <script type="module">
+        import {greenlandCelebrityList} from './scripts/greenland/celebData.js'
+        document.getElementById('greenlandCelebrityContainer').innerHTML = greenlandCelebrityList();
+    </script>
     </section>
 
 
 
 </div>
 
-<script type="module" src="./scripts/main.mjs"></script>
+<script type="module" src="scripts/greenland/main.js"></script>
+    <script type="module" src="scripts/greenland/cityData.js"></script>
+    <script type="module" src="scripts/greenland/landmarkData.js"></script>
+    <script type="module" src="scripts/greenland/celebData.js"></script>
 </body>
 
 </html>
