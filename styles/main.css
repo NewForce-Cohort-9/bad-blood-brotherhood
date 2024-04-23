@@ -79,3 +79,71 @@
 /* ---------------------------------------------------------------------------- */
 /* ------------------- CSS for index.html page: end ------------------------- */
 /* ---------------------------------------------------------------------------- */
+
+
+/*-------------------- CSS for vietnam.html page: START -----------------------*/
+#vbody {
+background-color: orangered;
+}
+
+.vtopnav {
+  background-color: rgb(240, 6, 240);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.vtopnav a:hover {
+  background-color: #edfd06;
+  color: black;
+}
+
+#vietnamCities {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: solid;
+  rotate: 1 1 0 30deg;
+}
+#vietnamCities__text {
+  color: #471eff;
+}
+
+#vietnamLandmarks {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 300px;
+  float: right;
+  rotate: 1 1 4 30deg;
+}
+
+#vietnamLandmarks__text {
+  color: #18810e;
+}
+
+#vietnamCelebs {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute; bottom: -5px; 
+  rotate: 1 1 -3 30deg;
+}
+
+#vietnamCelebs__text {
+  color: #1468ad;
+}
+/*-------------------- CSS for vietnam.html page: END -----------------------*/
