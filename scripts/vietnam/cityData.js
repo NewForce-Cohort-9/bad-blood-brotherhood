@@ -8,7 +8,9 @@ export const vietnamCityList = () => {
             <div class="city">
                 <h2>${city.cityName}</h2>
                 <figure class="cityImage">
+                <div class="vImages">
                     <img src="${city.cityImage}" alt="Image">
+                </div>
                 </figure>
                 <p>Population: ${city.cityPopulation}</p>
                 <p>Founded: ${city.cityFounded}</p>

@@ -1,13 +1,13 @@
 import { getVietnamCelebrities } from "../database.js";
 
-export const VietnamCelebrityList = () => {
+export const vietnamCelebrityList = () => {
     const vietnamCelebrities = getVietnamCelebrities(); 
     let htmlString = '<div class="vietnamCelebrityList">';
     vietnamCelebrities.forEach(celebrity => {
         htmlString += `
             <div class="celebrity">
                 <h2>${celebrity.celebName}</h2>
-                <figure class="celebImage">
+                <figure class="vcelebImage">
                     <img src="${celebrity.celebImage}" alt="Image">
                 </figure>
                 <p>Quote: ${celebrity.celebQuote}</p>

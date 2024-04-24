@@ -7,7 +7,7 @@ export const vietnamLandmarkList = () => {
         htmlString += `
             <div class="landmark">
                 <h2>${landmark.landmarkName}</h2>
-                <figure class="landmarkImage">
+                <figure class="vlandmarkImage">
                     <img src="${landmark.landmarkImage}" alt="Image">
                 </figure>
                 <p>Fun Fact: ${landmark.landmarkFunFact}</p>
