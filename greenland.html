@@ -16,13 +16,13 @@
     </marquee>
 		<marquee direction="right" behavior="alternate"
 				style="border:rgb(7, 250, 218) 5px double; color:rgb(250, 246, 7); font-size: 17px;" scrollamount="20">
-                Enjoy the beauty of Greenland!
+                Enjoy the beauty of Greenland!  Behold some of our lovely cities, landmarks, and celebrities!
 		</marquee>
 
     <div class = "main-content">
 
         <section id = "greenlandCityContainer">
-            <h2>Places to go in Greenland!</h2>
+            
             <script type="module">
                 import { greenlandCityList } from './scripts/greenland/cityData.js';
                 document.getElementById('greenlandCityContainer').innerHTML = greenlandCityList();
@@ -34,7 +34,7 @@
    
     
     <section id = "greenlandLandmarkContainer">
-        <h3>Things to see in Greenland!</h3>
+        
         <script type="module">
             import { greenlandLandmarkList} from './scripts/greenland/landmarkData.js'
             document.getElementById('greenlandLandmarkContainer').innerHTML = greenlandLandmarkList();
@@ -45,7 +45,7 @@
     
 
     <section id = "greenlandCelebrityContainer">
-    <h4>Interesting people from Greenland!</h4>
+    
     <script type="module">
         import {greenlandCelebrityList} from './scripts/greenland/celebData.js'
         document.getElementById('greenlandCelebrityContainer').innerHTML = greenlandCelebrityList();
