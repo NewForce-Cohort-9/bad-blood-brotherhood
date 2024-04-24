@@ -428,13 +428,14 @@ footer {
 
 /*-------------------- CSS for cambodia.html page: START -----------------------*/
 #cbody {
-  background-color: rgb(206, 123, 19);
+  background-color: rgb(154, 244, 68);
 }
 
 .ctopnav {
-  background-color: rgb(235, 69, 154);
+  background-color: rgb(1, 1, 128);
   overflow: hidden;
   display: flex;
+  border: 11px double #010102;
   justify-content: space-around;
 }
 
@@ -442,7 +443,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: flex-end; /* Align items to the bottom */
-  background-color: #99cc997c;
+  background-color: #EB459A;
   padding: 20px;
   border: 3px dashed #666;
   border-radius: 10px;
@@ -450,7 +451,7 @@ footer {
 
 #cambodiaCityContainer p {
   font-size: 14px;
-  color: #333;
+  color:rgb(154, 244, 68);
   margin-bottom: 10px;
 }
 
@@ -467,7 +468,7 @@ footer {
   background-color: #ff99998c;
   padding: 20px;
   transform: rotate(180deg);
-  border: 2px dotted #ff0000;
+  border: 50px ridge #ff0000;
   border-radius: 15px;
 }
 
@@ -488,9 +489,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6699cc;
+  background-color: #3B2808;
   padding: 20px;
-  border: 4px double #0000ff42;
+  border: 4px ridge #0000ff42;
   border-radius: 25px;
 }
 
@@ -498,9 +499,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ff99998c;
+  background-color: #ED0707;
   padding: 20px;
-  border: 2px dotted #ff0000;
+  border: 11px double #7F01FF;
   border-radius: 15px;
 }
 
