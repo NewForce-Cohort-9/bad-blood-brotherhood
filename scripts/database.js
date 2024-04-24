@@ -141,7 +141,7 @@ const greenlandDatabase = {
             id: 2,
             celebName: "Rasmus Lyberth",
             celebImage: 'scripts/greenland/images/rasmus-image.jpg',
-            celebQuote: "Getting bored is much more pleasant than getting breached",
+            celebQuote: "Getting bored is much more pleasant than getting harmed",
             celebKnownFor: "Musician and actor",
         },{
             id: 3,
@@ -257,14 +257,14 @@ const vietnamDatabase = {
 
         },{
             id: 2,
-            name: "Cao Bang",
+            cityName: "Cao Bang",
             cityImage: '/scripts/vietnam/images/bang.webp',
             cityPopulation: "73,549",
             cityFounded: "Between 300 BC to 201 BC"
 
         },{
             id: 3,
-            name: "Hue",
+            cityName: "Hue",
             cityImage: '/scripts/vietnam/images/hue.jpg',
             cityPopulation: "455,230",
             cityFounded: "1687"
