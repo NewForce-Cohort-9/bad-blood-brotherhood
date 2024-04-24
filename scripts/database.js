@@ -322,7 +322,6 @@ export const getVietnamLandmarks = () => {
     return vietnamDatabase.landmarks.map(landmarks => ({...landmarks}))
 }
 
-
 export const getVietnamCelebrities = () => {
     return vietnamDatabase.celebrities.map(celebrities =>({...celebrities}))
 }
