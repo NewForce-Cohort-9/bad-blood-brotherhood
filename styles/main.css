@@ -129,17 +129,17 @@ h1 {
 }
 
 .vcity {
-  text-shadow: 5px 5px rgb(155, 252, 10,);
+  text-shadow: 5px 5px rgb(103, 10, 252);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   rotate: 2 3 0 30deg;
-  color: #f1cf0d;
+  color: #55f10d;
   margin: auto;
-  border: 1px solid;
+  border: 3px outset;
   align-items: center;
   justify-content: center;
-  background-color: rgb(30, 210, 255, 0.7);
+  background-color: rgba(49, 255, 30, 0.6);
   text-align: center;
 }
 
@@ -159,18 +159,21 @@ h1 {
 }
 
 .vlandmark {
-  text-shadow: 5px 5px rgb(155, 252, 10);
+  text-shadow: 5px 5px rgb(10, 252, 22);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  rotate: 1 1 3 10deg;
-  color: #0d8999;
+  rotate: 1 1 2 10deg;
+  color: #0d1b99;
   padding: 10px;
-  border: solid;
-  width: 1000px;
+  border: 3px inset;
+  
   margin: auto;
   margin-bottom: 75px;
   text-align: center;
+  background-color: rgba(30, 120, 255, 0.6);
+  justify-content: center;
+  align-items: center;
 }
 
 .vlandmarkImage {
