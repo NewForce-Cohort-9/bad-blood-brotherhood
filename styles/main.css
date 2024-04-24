@@ -166,7 +166,7 @@ background-color: orangered;
 }
 
 #gheader {
-  font-size: 50px; 
+  font-size: 50px;
   text-align: center;
   color: #1e80ff;
   font-weight: 100em;
@@ -174,10 +174,11 @@ background-color: orangered;
 }
 
 #greenlandCityContainer {
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-color: #2d1eff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #e5ff00;
+  margin-left: 850px; 
 }
 
 #greenlandLandmarkContainer {
@@ -185,12 +186,24 @@ color: #2d1eff;
   flex-wrap: wrap;
   flex-direction: column;
   color: #ffa600;
+  margin-left: 100px; 
 }
 
 #greenlandCelebrityContainer {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   color: #24aefd;
+  margin-left: 650px; 
+}
+
+
+
+#greenlandCityContainer img,
+#greenlandLandmarkContainer img,
+#greenlandCelebrityContainer img {
+  max-width: 200px; 
+  height: auto; 
 }
 /* ---------------------------------------------------------------------------- */
 /*-------------------- CSS for greenland.html page: END ------------------------*/
