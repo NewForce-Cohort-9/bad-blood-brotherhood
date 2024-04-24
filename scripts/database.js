@@ -141,7 +141,7 @@ const greenlandDatabase = {
             id: 2,
             celebName: "Rasmus Lyberth",
             celebImage: 'scripts/greenland/images/rasmus-image.jpg',
-            celebQuote: "Getting bored is much more pleasant than getting breached",
+            celebQuote: "Getting bored is much more pleasant than getting harmed",
             celebKnownFor: "Musician and actor",
         },{
             id: 3,
