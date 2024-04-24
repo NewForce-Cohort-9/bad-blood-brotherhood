@@ -5,10 +5,12 @@ export const vietnamCelebrityList = () => {
     let htmlString = '<div class="vietnamCelebrityList">';
     vietnamCelebrities.forEach(celebrity => {
         htmlString += `
-            <div class="celebrity">
+            <div class="vcelebrity">
                 <h2>${celebrity.celebName}</h2>
-                <figure class="vcelebImage">
+                <figure class="celebImage">
+                <div class="vCelImages">
                     <img src="${celebrity.celebImage}" alt="Image">
+                </div>
                 </figure>
                 <p>Quote: ${celebrity.celebQuote}</p>
                 <p>Known For: ${celebrity.celebKnownFor}</p>

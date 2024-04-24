@@ -5,10 +5,12 @@ export const vietnamLandmarkList = () => {
     let htmlString = `<div class="vietnamLandmarkList">`;
     vietnamLandmarks.forEach(landmark => {
         htmlString += `
-            <div class="landmark">
+            <div class="vlandmark">
                 <h2>${landmark.landmarkName}</h2>
-                <figure class="vlandmarkImage">
+                <figure class="landmarkImage">
+                    <div class="vLImages">
                     <img src="${landmark.landmarkImage}" alt="Image">
+                    </div>
                 </figure>
                 <p>Fun Fact: ${landmark.landmarkFunFact}</p>
             </div>

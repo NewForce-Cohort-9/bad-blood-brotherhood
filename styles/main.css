@@ -117,10 +117,56 @@ h1 {
   color: black;
 }
 
-.vImages {
-  
+.vcity {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+  display: flex;
+  flex-wrap: wrap;
+  border: #5eff00;
+  flex-direction: column;
+  rotate: 1 -1 0 10deg;
+  padding: 10px;
+  color: #0d8999;
 }
 
+.vCImages {
+  display: flex;
+  width: 400px;
+  height: 350px;
+}
+
+
+.vLImages {
+  display: flex;
+  width: 400px;
+  height: 350px;
+}
+
+.vlandmark {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 300px;
+  float: right;
+  rotate: 1 1 -1 10deg;
+  color: #0d8999;
+  padding: 10px;
+}
+
+.vCelImages {
+  display: flex;
+  width: 400px;
+  height: 350px;
+}
+
+.vcelebrity {
+  text-shadow: 5px 5px rgb(155, 252, 10);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  rotate: 1 1 -2 10deg;
+  color: #0d8999;
+}
 /* ------------------------------------------------------------------------- */
 /*-------------------- CSS for vietnam.html page: END -----------------------*/
 /* ------------------------------------------------------------------------- */
