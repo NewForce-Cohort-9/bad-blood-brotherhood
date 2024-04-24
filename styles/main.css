@@ -209,15 +209,18 @@ color: #2d1eff;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
   background-color: #ffcc00;
   padding: 20px;
+  margin-top: 6%;
   transform: rotate(5deg);
-  border: 5px solid #333;
+  border: 17px ridge #9e2727;
   border-radius: 20px;
 }
 
 /* City container styles */
-.stein__cityContainer {
+#stein__cityContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,14 +231,32 @@ color: #2d1eff;
   border-radius: 10px;
 }
 
-.stein__cityContainer p {
-  font-size: 14px;
-  color: #333;
-  margin-bottom: 10px;
+.sCity {
+  margin-top: 50px;
+  margin-bottom: 250px;
 }
 
+.sCity h2 {
+  font-size: 60px;
+  text-shadow: 3px 2px white;
+  color: #333;
+  margin-bottom: 70px;
+}
+
+.sCity p {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #08680d;
+  text-shadow: 28px 18px saddlebrown;
+  margin-bottom: 70px;
+}
+
+.sCity img {
+  width: 750px;
+  height: 600px;
+}
 /* Landmark container styles */
-.stein__landmarkContainer {
+#stein__landmarkContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,30 +267,67 @@ color: #2d1eff;
   border-radius: 15px;
 }
 
-.stein__landmarkContainer h2 {
-  font-size: 18px;
+.sLandmark h2 {
+  font-size: 38px;
   color: #fff;
+  text-shadow: 250px 14px #99cc997c;
   margin-bottom: 10px;
 }
 
-.stein__funFact {
+.sLandmarkImage {
+  position: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  margin-left: 40%;
+  padding-bottom: 30px;
+
+}
+
+.sLandmark img {
+  width: 750px;
+  height: 150px;
+  transform: rotate(-15deg);
+}
+
+.sLandmark p {
   font-style: italic;
   color: #666;
+  font-size: 55px;
 }
 
 /* Celebrity container styles */
-.stein__celebContainer {
+#stein__celebContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6699cc;
+  background-color: linear-gradient(to right, #6699cc 80%, );
   padding: 20px;
   transform: rotate(-3deg);
-  border: 4px double #0000ff42;
+  border: 400px double #0000ff42;
   border-radius: 25px;
 }
 
-/* HEIM! - Home link made tricky... */
+.sCelebrity h2 {
+  font-size: 68px;
+  text-align: right;
+  color: #fff;
+  text-shadow: 3px 4px #99cc997c;
+  margin-bottom: 10px;
+}
+
+.sCelebrity img {
+  width: 500px;
+  height: 450px;
+}
+.sCelebrity p {
+  font-size: 38px;
+  color: #fff;
+  text-shadow: 3px 4px #99cc997c;
+  margin-bottom: 10px;
+}
+
+/* HEIM! - Home link made tricky...but you can still clicky. */
 .steinHomeLink::before {
   width: 0;
   white-space: nowrap;
@@ -294,6 +352,74 @@ footer {
 .steinHomeLink:hover {
   font-size: 15px;
   transform: translateX(100px);
+}
+
+/* A little more fun with image styling, since there was a little extra time! */
+.bounds {
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+}
+
+@keyframes hor-movement {
+    0%, 100% {
+      transform: translateX(0%);
+  }
+  50% {
+      transform: translateX(calc(100vw - 10%)); 
+  }
+}
+
+@keyframes ver-movement {
+    0%, 100% {
+      transform: translateY(90%);
+  }
+  30% {
+      transform: translateY(calc(100vh - 20%)); 
+  }
+}
+
+.freeImage {
+  width: 10%;
+  height: 20%;
+  animation-name: hor-movement, ver-movement;
+  animation-duration: 3s, 4s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  padding-left: 26%;
+  offset-position:initial;
+
+}
+
+.freeImage2 {
+  width: 24%;
+  height: 40%;
+  animation-name: hor-movement, ver-movement;
+  animation-duration: 3s, 0.6s;
+  animation-delay: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: inherit;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  padding-left: 45%;
+  margin-bottom: 4%;
+}
+
+.freeImage3 {
+  width: 15%;
+  height: 30%;
+  animation-name: hor-movement, ver-movement;
+  animation-duration: 3s, 10s;
+  animation-iteration-count: infinite;
+  animation-direction:inherit;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  position: relative;
+  padding-left: 4%;
+
 }
 
 /* ---------------------------------------------------------------------------- */

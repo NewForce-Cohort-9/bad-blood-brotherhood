@@ -182,14 +182,14 @@ const steinDatabase = {
 
         },{
             id: 2,
-            name: "Schaan",
+            cityName: "Schaan",
             cityImage: '/scripts/stein/images/schaan.jpg',
             cityPopulation: "5,748",
             cityFounded: "1st century AD"
 
         },{
             id: 3,
-            name: "Triesen",
+            cityName: "Triesen",
             cityImage: '/scripts/stein/images/triesen.jpg',
             cityPopulation: "4,701",
             cityFounded: "12th century"
@@ -218,10 +218,10 @@ const steinDatabase = {
     celebrities: [
         {
             id: 1,
-            celebName: '"Stephanie Vogt"',
+            celebName: "Stephanie Vogt",
             celebImage: '/scripts/stein/images/stephanieVogt.jpg',
             celebQuote: "UUUUUUGH!!! (backhand power tennis shot)",
-            celebKnownFor: "A professional tennis player. Won several singles and doubles titles on the International Tennis Federation (ITF) tour.",
+            celebKnownFor: "Being a professional tennis player. Won several singles and doubles titles on the International Tennis Federation (ITF) tour.",
         },
     ]
 }
