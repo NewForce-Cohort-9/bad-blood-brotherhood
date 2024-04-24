@@ -129,7 +129,7 @@ h1 {
 }
 
 .vcity {
-  text-shadow: 5px 5px rgb(155, 252, 10);
+  text-shadow: 5px 5px rgb(155, 252, 10,);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -139,7 +139,7 @@ h1 {
   border: 1px solid;
   align-items: center;
   justify-content: center;
-  background-color: #1ed2ff;
+  background-color: rgb(30, 210, 255, 0.7);
   text-align: center;
 }
 
@@ -155,9 +155,10 @@ h1 {
   width: 400px;
   height: 400px;
   margin: 50px;
+  word-wrap: break-word;
 }
 
-#vietnamLandmarkContainer {
+.vlandmark {
   text-shadow: 5px 5px rgb(155, 252, 10);
   display: flex;
   flex-wrap: wrap;
@@ -168,6 +169,7 @@ h1 {
   border: solid;
   width: 1000px;
   margin: auto;
+  margin-bottom: 75px;
   text-align: center;
 }
 
@@ -178,27 +180,24 @@ h1 {
 .vCelImages {
   display: flex;
   width: 400px;
-  height: 350px;
+  height: 250px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
-#vietnamCelebrityContainer {
-  text-shadow: 5px 5px rgb(155, 252, 10);
+.vcelebrity {
+  text-shadow: 5px 5px rgb(155, 252, 10, 0.3);
   display: flex;
   flex-wrap: wrap;
   flex-direction:column;
-  rotate: 1 1 0 10deg;
+  rotate: 1 1 -1 10deg;
   color: #0d8999;
   border: solid;
   justify-content: end;
   width: 1000px;
   margin: auto;
-  text-align: center;
+  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
-  margin: 50px; 
 }
 /* ------------------------------------------------------------------------- */
 /*-------------------- CSS for vietnam.html page: END -----------------------*/
