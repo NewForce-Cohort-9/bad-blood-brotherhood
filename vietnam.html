@@ -1,71 +1,3 @@
-	<!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Vietnam</title>
-		<link rel="stylesheet" href="styles/main.css">
-		</head>
-
-	<body id="vbody">
-
-		<!--Head of Page-->
-		<h1 style="text-align: center; color: rgb(5, 255, 130);">
-		Welcome To Vietnam
-		</h1>
-		<marquee style="color: rgb(7, 51, 250); font-size: 17px;" scrollamount="15"> Home of the Pho</marquee>
-		<marquee direction="right" behavior="alternate"
-				style="border:yellow 2px dashed; color:rgb(7, 51, 250); font-size: 17px;" scrollamount="15">
-			Land Of the World's Largest Cave
-		</marquee>
-
-		<!--Nav Bar-->
-		<nav>
-		<ul class="vtopnav" style=" border: 3px solid rgb(230, 255, 5); padding: 10px; box-shadow: 4px 10px;">
-			<a href="https://youtu.be/dQw4w9WgXcQ?si=Zke0_T9a4bAc_5Ij" target="blank" class="firsthome">Secret Link</a>
-			<a href="https://en.wikipedia.org/wiki/Vietnam" target="_blank" class="secondhome">More Info</a>
-			<a href="https://pixabay.com/images/search/cat/" class="thirdhome">Cat Pics</a>
-			<a href="http://www.patience-is-a-virtue.org/" target="_blank" class="fourthhome">More Fun!</a>
-			<a href="https://www.google.com/" target="_blank">Actual Home... Maybe</a>
-		</ul>
-	</nav>
-		
-		<!--Middle components-->
-		<main class="container">
-
-		<section>
-		<div id="vietnamCities">
-		<div id="vietnamCities__text">
-		<h2>Take a trip through some of the wonderful cities in Vietnam!</h2>
-		<p>Random text for flexbox</p>
-	</div>
-		<img>
-	</div>
-
-	<div id="vietnamLandmarks">
-		<div id="vietnamLandmarks__text">
-		<h3>Just a peak into some of Vietnam's landmarks!</h3>
-		<p>Random text for flexbox</p>
-	</div>
-		<img>
-	</div>
-
-	<div id="vietnamCelebs">
-		<div id="vietnamCelebs__text">
-		<h4>Who are some of the influencers in vietnam?</h4>
-		<p>Random text for flexbox</p>
-		<img>
-	</div>
-	</div>
-		</section>
-		</main>
-
-		<script type="module" src="scripts/main.js"></script>
-	</body>
-	</html>
-
-	<!-- BROOKS, HERE IS A SECTION OF HTML THAT I KNOW WILL RUN IF LEFT ON ITS OWN.  TRY TO USE IT TO MERGE INTO WHAT YOU'VE GOT 
-	ALREADY
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,54 +8,71 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 
-<body>
-   
-    <header>Welcome to Vietnam!</header>
 
-    <div class = "main-content">
+	<body id="vbody">
 
-        <section id = "vietnamCityContainer">
-            <h2>Places to go in Vietnam!</h2>
-            <script type="module">
-                import { vietnamCityList } from './scripts/vietnam/cityData.js';
-                document.getElementById('vietnamCityContainer').innerHTML = vietnamCityList();
-            </script>
+		<!--Head of Page-->
+		<h1 style="text-align: center; color: rgb(6, 245, 125);">
+		Welcome To Vietnam
+		</h1>
 
+		<!--Moving Text Above NAV BAR-->
+		<marquee style="color: rgb(7, 51, 250); font-size: 18px;" scrollamount="37"> Home of the Pho</marquee>
+		<marquee direction="right" behavior="alternate"
+				style="border:rgb(255, 196, 0) 4px groove; color:rgb(7, 51, 250); font-size: 18px;" scrollamount="37">
+			Land Of the World's Largest Cave
+		</marquee>
 
-    </div>
+		<!--Nav Bar-->
+		<nav>
+		<ul class="vtopnav" style=" border: 3px solid rgb(255, 205, 96); padding: 10px; box-shadow: 5px 5px rgb(11, 255, 194);">
+			<a href="https://youtu.be/dQw4w9WgXcQ?si=Zke0_T9a4bAc_5Ij" target="blank" class="firsthome">Secret Link</a>
+			<a href="https://en.wikipedia.org/wiki/Vietnam" target="_blank" class="secondhome">More Info</a>
+			<a href="https://pixabay.com/images/search/cat/" class="thirdhome">Cat Pics</a>
+			<a href="http://www.patience-is-a-virtue.org/" target="_blank" class="fourthhome">More Fun!</a>
+			<a href="index.html" target="_blank">Actual Home... Maybe</a>
+		</ul>
+	</nav>
+		
+		<!--Middle components-->
+    <div class = "vmain-content">
 
-   
-    
-    <section id = "vietnamLandmarkContainer">
-        <h3>Things to see in Vietnam!</h3>
-        <script type="module">
-            import { vietnamLandmarkList} from './scripts/vietnam/landmarkData.js'
-            document.getElementById('vietnamLandmarkContainer').innerHTML = vietnamLandmarkList();
-        </script>
-    
-    </section>
-
-    
-
-    <section id = "vietnamCelebrityContainer">
-    <h4>Interesting people from Vietnam!</h4>
-    <script type="module">
-        import {vietnamCelebrityList} from './scripts/vietnam/celebData.js'
-        document.getElementById('vietnamCelebrityContainer').innerHTML = vietnamCelebrityList();
-    </script>
-    </section>
-
-
-
-</div>
-
-<script type="module" src="scripts/vietnam/main.js"></script>
-    <script type="module" src="scripts/vietnam/cityData.js"></script>
-    <script type="module" src="scripts/vietnam/landmarkData.js"></script>
-    <script type="module" src="scripts/vietnam/celebData.js"></script>
+			<section id="vietnamCityContainer">
+			<h2>Take a trip through some of the wonderful cities in Vietnam!</h2>
+			<script type="module">
+				 import { vietnamCityList } from './scripts/vietnam/cityData.js';
+									document.getElementById('vietnamCityContainer').innerHTML = vietnamCityList();
+			</script>
+	</section>
+	
+	
+	<section id = "vietnamLandmarkContainer">
+			<h3>Just a peak into some of Vietnam's landmarks!</h3>
+			<script type="module">
+				import { vietnamLandmarkList} from './scripts/vietnam/landmarkData.js'
+				document.getElementById('vietnamLandmarkContainer').innerHTML = vietnamLandmarkList();
+			</script>
+	</section>
+	
+	
+	<section id = "vietnamCelebrityContainer">
+			<div id="vietnamCelebs__text">
+			<h4>Who are some of the influencers in vietnam?</h4>
+			<script type="module">
+				import {vietnamCelebrityList} from './scripts/vietnam/celebData.js'
+				document.getElementById('vietnamCelebrityContainer').innerHTML = vietnamCelebrityList();
+			</script>
+		</div>
+			</section>
+	
+	
+	</div>
+	
+	
+	<script type="module" src="scripts/vietnam/main.js"></script>
+	<script type="module" src="scripts/vietnam/cityData.js"></script>
+	<script type="module" src="scripts/vietnam/landmarkData.js"></script>
+	<script type="module" src="scripts/vietnam/celebData.js"></script>
 </body>
 
 </html>
-
-
-END OF SECTION-->
