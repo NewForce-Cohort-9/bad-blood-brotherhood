@@ -426,4 +426,91 @@ footer {
 /* ------------------- CSS for stein.html page: END ------------------------- */
 /* ---------------------------------------------------------------------------- */
 
+/*-------------------- CSS for cambodia.html page: START -----------------------*/
+#cbody {
+  background-color: rgb(154, 244, 68);
+}
 
+.ctopnav {
+  background-color: rgb(1, 1, 128);
+  overflow: hidden;
+  display: flex;
+  border: 11px double #010102;
+  justify-content: space-around;
+}
+
+#cambodiaCityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; /* Align items to the bottom */
+  background-color: #EB459A;
+  padding: 20px;
+  border: 3px dashed #666;
+  border-radius: 10px;
+}
+
+#cambodiaCityContainer p {
+  font-size: 14px;
+  color:rgb(154, 244, 68);
+  margin-bottom: 10px;
+}
+
+#cambodiaCityContainer img {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Landmark container styles */
+#cambodiaLandmarkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff99998c;
+  padding: 20px;
+  transform: rotate(180deg);
+  border: 50px ridge #ff0000;
+  border-radius: 15px;
+}
+
+#cambodiaLandmarkContainer img {
+  max-width: 400px;
+  height: auto;
+}
+
+#cambodiaLandmarkContainer h2 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+
+
+#cambodiaLandmarkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3B2808;
+  padding: 20px;
+  border: 4px ridge #0000ff42;
+  border-radius: 25px;
+}
+
+#cambodiaCelebrityContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ED0707;
+  padding: 20px;
+  border: 11px double #7F01FF;
+  border-radius: 15px;
+}
+
+#cambodiaCelebrityContainer img {
+  max-width: 400px;
+  height: auto;
+}
+
+
+  /* ------------------------------------------------------------------------- */
+  /*-------------------- CSS for cambodia.html page: END -----------------------*/
+  /* ------------------------------------------------------------------------- */
