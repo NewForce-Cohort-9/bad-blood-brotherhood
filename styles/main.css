@@ -99,13 +99,13 @@ height: 100%;
 }
 
 h1 {
-  text-shadow: 5px 6px rgb(252, 236, 10);
+  text-shadow: 5px 6px rgb(214, 203, 52);
   transform: rotate(180deg);
   font-size: 50px;
 }
 
 .vtopnav {
-  background-color: rgb(240, 6, 240);
+  background-color: rgb(255, 4, 242);
   overflow: hidden;
   display: flex;
   justify-content: space-around;
@@ -134,13 +134,16 @@ h1 {
   flex-wrap: wrap;
   flex-direction: column;
   rotate: 2 3 0 30deg;
-  color: #55f10d;
+  color: #61e7ca;
   margin: auto;
   border: 3px outset;
   align-items: center;
   justify-content: center;
   background-color: rgba(49, 255, 30, 0.6);
   text-align: center;
+  border-color: #1e80ff;
+  margin-top: 20px;
+  box-shadow: 5px 10px;
 }
 
 .vCImages {
@@ -159,25 +162,29 @@ h1 {
 }
 
 .vlandmark {
-  text-shadow: 5px 5px rgb(10, 252, 22);
+  text-shadow: 5px 5px rgb(61, 178, 187);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   rotate: 1 1 2 10deg;
-  color: #0d1b99;
+  color: #3d3ae7;
   padding: 10px;
   border: 3px inset;
-  
+  width: 1000px;
   margin: auto;
   margin-bottom: 75px;
-  text-align: center;
-  background-color: rgba(30, 120, 255, 0.6);
+  background-color: rgba(32, 116, 241, 0.6);
   justify-content: center;
   align-items: center;
+  padding-right: 100px;
+  text-align: center;
+  border-color: #f3ff50;
+  box-shadow: 5px 10px;
 }
 
 .vlandmarkImage {
   word-wrap: break-word;
+
 }
 
 .vCelImages {
@@ -188,19 +195,22 @@ h1 {
 }
 
 .vcelebrity {
-  text-shadow: 5px 5px rgb(155, 252, 10, 0.3);
+  text-shadow: 5px 5px rgb(4, 121, 29);
+  box-shadow: 5px 10px;
   display: flex;
   flex-wrap: wrap;
   flex-direction:column;
   rotate: 1 1 -1 10deg;
-  color: #0d8999;
-  border: solid;
+  color: #bedd4c;
+  border: 4px double;
   justify-content: end;
-  width: 1000px;
+  width: 1900px;
   margin: auto;
   margin-bottom: 50px;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 243, 243, 0.719);
+  border-color: #48ff00;
 }
 /* ------------------------------------------------------------------------- */
 /*-------------------- CSS for vietnam.html page: END -----------------------*/
