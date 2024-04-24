@@ -5,9 +5,9 @@ export const steinCelebrityList = () => {
     let htmlString = '<div class="steinCelebrityList">';
     steinCelebrities.forEach(celebrity => {
         htmlString += `
-            <div class="celebrity">
+            <div class="sCelebrity">
                 <h2>${celebrity.celebName}</h2>
-                <figure class="celebImage">
+                <figure class="sCelebImage">
                     <img src="${celebrity.celebImage}" alt="Image">
                 </figure>
                 <p>Quote: ${celebrity.celebQuote}</p>
